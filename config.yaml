@@ -3,6 +3,7 @@ baseURL: https://hugo-toha.github.io
 languageCode: en-us
 title: "DLI Docs"
 theme: "toha"
+publishDir: "../"
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
@@ -70,3 +71,4 @@ params:
   # Currently, you can just hide it from the footer.
   newsletter:
     enable: true
+    
