@@ -1,0 +1,76 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+# designation: Software Engineer
+# your company information
+company:
+  name: DLI IT Systems LLC.
+  url: "https://dli-it.com/"
+
+# your resume. this file path should be relative to you "static" directory
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'The homepage of Dli docs is your starting point for accessing software documentation, developer guides, style guides and other resources.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "adarsh@dli-pdc.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/example"
+
+#- name: Stackoverflow
+ # icon: "fab fa-stack-overflow"
+ # url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/company/dli-systems-group---employee-time-attendance-payroll-&-personnel-management-system/#"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/dliitsystemsgro?lang=en"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/DLIITSystemsGroup/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: HR Software
+  percentage: 90
+  color: blue
+- name: Payroll outsourcing
+  percentage: 85
+  color: yellow
+- name: Consultancy
+  percentage: 80
+  color: pink
+- name: Time & Attendance
+  percentage: 75
+  color: green
+- name: Bio-metric devices
+  percentage: 70
+  color: sky
+
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"
